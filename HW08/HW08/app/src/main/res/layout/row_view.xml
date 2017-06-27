@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="6dp">
+
+    <TextView
+        android:text="City,country"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewCityCountry"
+        android:layout_width="wrap_content"
+        android:textSize="14sp"
+        android:layout_below="@+id/textViewTemperature"
+        android:layout_above="@+id/textViewLastUpdated"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:text="Last updated"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewLastUpdated1"
+        android:layout_width="wrap_content"
+
+
+        android:layout_marginTop="6dp"
+        android:layout_below="@+id/textViewTemperature"
+        android:layout_alignRight="@+id/textViewTemperature"
+        android:layout_alignEnd="@+id/textViewTemperature"
+        android:textColor="@android:color/black"/>
+
+    <ImageView
+        app:srcCompat="@mipmap/ic_launcher"
+        android:id="@+id/imageViewFavourite"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@+id/textViewCityCountry"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="Temperature:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewTemperature"
+        android:layout_marginRight="9dp"
+        android:layout_marginEnd="9dp"
+
+        android:textColor="@android:color/black"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/imageViewFavourite"
+        android:layout_toStartOf="@+id/imageViewFavourite" />
+</RelativeLayout>

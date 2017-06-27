@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Weather App</string>
+    <string name="TextViewSImpleText">Current city not yet set</string>
+    <string name="ButtonSetCurrCity">Set Current city</string>
+    <string name="editTextSearchCityName" />
+    <string name="EditTextSearchCountryName" />
+    <string name="ButtonSearchCity">Search City</string>
+    <string name="textViewSimpleText1">There are no cities to display.</string>
+    <string name="TextViewSimpleText2">Search the  city from the search box and save.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="TextViewCityName" />
+    <string name="textViewStatus" />
+    <string name="textViewTemperature" />
+    <string name="textViewLastUpdated" />
+    <string name="textViewCityCountry" />
+    <string name="textViewTemperature1" />
+    <string name="textViewLastUpdated1" />
+    <string name="TextViewSavedCities_label">Saved Cities</string>
+
+    <!-- Prefrences -->
+    <string-array name="tempArray">
+        <item>Celcius</item>
+        <item>Fahrenheit</item>
+    </string-array>
+
+    <string-array name="tempValues">
+        <item>Celcius</item>
+        <item>Fahrenheit</item>
+    </string-array>
+</resources>
