@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Chit Chat</string>
+    <string name="TextViewEmail">Email</string>
+    <string name="EmailValue_label" />
+    <string name="Password_label">Password</string>
+    <string name="PasswordValue_label" />
+    <string name="LoginButton_label">Login</string>
+    <string name="textViewText_label">Or, Sign Up</string>
+    <string name="FirstName_label">FirstName:</string>
+    <string name="FNameValue_label" />
+    <string name="LastName_label">LastName:</string>
+    <string name="LNameValue_Label" />
+    <string name="Email_label">Email:</string>
+    <string name="EmailValue1_label" />
+    <string name="textViewPassword_label">Password:</string>
+    <string name="Password1Value_label" />
+    <string name="SignUpButton_label">Sign Up</string>
+    <string name="textViewHedding_label" />
+    <string name="ButtonAddMore_label">Add More</string>
+    <string name="ButtonJoin_label">Join</string>
+    <string name="TextViewChannelName_label" />
+    <string name="editTextTexttoSend_label" />
+    <string name="ButtonSend">Send</string>
+    <string name="ChannelName_label" />
+    <string name="ButtonView_label">View</string>
+    <string name="buttonJoin">Join</string>
+    <string name="TextViewMessageDetails_label" />
+</resources>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_weight_calculator"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.sweth.weightcalc.WeightCalculator"
+    tools:showIn="@layout/activity_weight_calculator">
+
+    <TextView
+        android:text="@string/TargetWt_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="@string/BMIRanges_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/bmiranges" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bmiranges"
+        android:layout_alignLeft="@+id/bmiranges"
+        android:layout_alignStart="@+id/bmiranges"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="11dp"
+        android:id="@+id/Radiogroup">
+
+        <RadioButton
+            android:text="@string/fstoption_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb1"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:text="@string/scndoption_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb2"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:text="@string/thrdoption_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bmiranges"
+            android:layout_alignLeft="@+id/bmiranges"
+            android:layout_alignStart="@+id/bmiranges"
+            android:id="@+id/rb3"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:text="@string/frthoption_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bmiranges"
+            android:layout_alignLeft="@+id/bmiranges"
+            android:layout_alignStart="@+id/bmiranges"
+            android:id="@+id/rb4"
+            android:layout_weight="1" />
+    </RadioGroup>
+
+    <TextView
+        android:text="@string/Height_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/bmiranges"
+        android:layout_alignStart="@+id/bmiranges" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+
+        android:ems="10"
+        android:layout_below="@+id/textView3"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_marginTop="11dp"
+        android:id="@+id/feet" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+
+        android:ems="10"
+        android:id="@+id/inches"
+        android:layout_below="@+id/feet"
+        android:layout_alignLeft="@+id/feet"
+        android:layout_alignStart="@+id/feet" />
+
+    <Button
+        android:text="@string/CalcWtBtn_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:id="@+id/clickme"
+        android:layout_below="@+id/inches"
+        android:layout_alignLeft="@+id/inches"
+        android:layout_alignStart="@+id/inches" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Result"
+        android:layout_below="@+id/clickme"
+        android:layout_alignLeft="@+id/clickme"
+        android:layout_alignStart="@+id/clickme"
+        android:layout_marginTop="13dp" />
+
+    <TextView
+        android:text="@string/Feet_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="23dp"
+        android:layout_marginStart="23dp"
+        android:id="@+id/textView4"
+        android:layout_alignBaseline="@+id/feet"
+        android:layout_alignBottom="@+id/feet"
+        android:layout_toRightOf="@+id/feet"
+        android:layout_toEndOf="@+id/feet" />
+
+    <TextView
+        android:text="@string/inches_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:layout_alignBaseline="@+id/inches"
+        android:layout_alignBottom="@+id/inches"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_alignStart="@+id/textView4" />
+
+</RelativeLayout>

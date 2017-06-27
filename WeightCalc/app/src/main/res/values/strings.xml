@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Weight Estimator</string>
+    <string name="action_settings">Settings</string>
+    <string name="TargetWt_label">Target Weight</string>
+    <string name="BMIRanges_label">BMI Ranges</string>
+    <string name="fstoption_label"><![CDATA[< 18.5]]></string>
+    <string name="scndoption_label"><![CDATA[18.5 to 24.9]]></string>
+    <string name="thrdoption_label"><![CDATA[25.0 to 29.9]]></string>
+    <string name="frthoption_label"><![CDATA[> 29.9]]></string>
+    <string name="Height_label">Height</string>
+    <string name="Feet_label">Feet</string>
+    <string name="inches_label">Inches</string>
+    <string name="CalcWtBtn_label">Calculate Weight</string>
+    <string name="result_label">result</string>
+    <string name="resulttext_label">ResultTest</string>
+</resources>

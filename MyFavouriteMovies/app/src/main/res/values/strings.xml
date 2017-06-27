@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">My Favourite Movies</string>
+    <string name="btnAddMovie">Add Movie</string>
+    <string name="btnEdit">Edit</string>
+    <string name="btnDeleteMovie">Delete Movie</string>
+    <string name="btnShowByYear">Show List by Year</string>
+    <string name="btnShowByRating">Show List by Rating</string>
+    <string name="txtViewName">Name:</string>
+    <string name="txtViewDescptn">Description:</string>
+    <string name="txtViewGenre">Genre:</string>
+    <string name="txtViewYear">Year:</string>
+    <string name="txtViewRating">Rating:</string>
+    <string name="txtViewImdb">IMDB:</string>
+    <string name="txtViewMovByRating">Movie By Rating</string>
+    <string name="txtViewTitle">Title:</string>
+    <string name="btnFinish">Finish</string>
+    <string name="BeginBtn_label">BGN</string>
+    <string name="Prevbtn_label">PRV</string>
+    <string name="nextbtn_label">NXT</string>
+    <string name="endbtn_label">END</string>
+    <string name="EditSpinner_label">Pick A Movie</string>
+    <string name="test_label" />
+    <string name="EditGenre_label">Select</string>
+    <string name="spinnerHint">Select</string>
+    <string-array name="genreList">
+        <item>Action</item>
+        <item>Animation</item>
+        <item>Comedy</item>
+        <item>Documentary</item>
+        <item>Family</item>
+        <item>Horror</item>
+        <item>Crime</item>
+        <item>Others</item>
+    </string-array>
+
+</resources>

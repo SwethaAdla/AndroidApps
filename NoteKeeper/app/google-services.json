@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "238562131459",
+    "firebase_url": "https://inclass10-383fe.firebaseio.com",
+    "project_id": "inclass10-383fe",
+    "storage_bucket": "inclass10-383fe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:238562131459:android:12ed07dbc4c233dd",
+        "android_client_info": {
+          "package_name": "com.example.sep_r.notekeeper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "238562131459-liju51ol8har1qi4mqoloe98gvjr5jpo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sep_r.notekeeper",
+            "certificate_hash": "7d13eac5075178813124cc0976d1ab03b431a99f"
+          }
+        },
+        {
+          "client_id": "238562131459-8al4pi99cl7g20c9r8j0vopmge7478j8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtKyc-IXFNwYw2iyMni14dpM0vRdqNnjk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "238562131459-8al4pi99cl7g20c9r8j0vopmge7478j8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

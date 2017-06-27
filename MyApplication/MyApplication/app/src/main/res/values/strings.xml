@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="txtViewTitle">txtViewTitle</string>
+    <string name="chkBoxlabel">chkBoxlabel</string>
+    <string name="btnSearch">btnSearch</string>
+    <string name="textviewtitle_label">Word Frequencies:</string>
+</resources>

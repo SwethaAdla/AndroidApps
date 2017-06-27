@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">InClassAssignment04</string>
+    <string name="txtViewSelectSrc">Select news source:</string>
+    <string name="btnGetNews">Get News</string>
+    <string name="btnFinish">Finish</string>
+    <string-array name="newsSourceArr">
+        <item>BBC</item>
+        <item>CNN</item>
+        <item>Buzzfeed</item>
+        <item>ESPN</item>
+        <item>Sky News</item>
+    </string-array>
+
+
+</resources>
+

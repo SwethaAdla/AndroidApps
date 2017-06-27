@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Ted Radio Hour Podcast</string>
+    <string name="episodeDetails_label" />
+    <string name="PlayNow_label">Play Now</string>
+</resources>

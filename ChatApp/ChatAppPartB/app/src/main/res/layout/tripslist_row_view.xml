@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:descendantFocusability="blocksDescendants">
+
+    <TextView
+        android:text="@string/TxtviewTriptitle_label"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewTripTitle"
+        android:layout_weight="1"
+        android:textColor="@android:color/black"
+        android:layout_width="280dp" />
+
+    <TextView
+        android:text="@string/textviewcreatedBy_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewTripTitle"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="11dp"
+        android:id="@+id/textViewcreatedBy"
+        android:textColor="@android:color/black"
+        />
+
+    <TextView
+        android:text="@string/txtViewCreatedOn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewcreatedBy"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textViewCreatedOn"
+        android:textColor="@android:color/black"/>
+
+    <Button
+        android:text="@string/BtnJoinTrip_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/buttonJoinTrip"
+        android:visibility="invisible"/>
+
+    <Button
+        android:text="Remove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/buttonJoinTrip"
+        android:layout_alignStart="@+id/buttonJoinTrip"
+        android:id="@+id/buttonRemoveTrip"
+        android:textAllCaps="false"
+        android:visibility="invisible"/>
+
+    <Button
+        android:text="Trip Plan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonTripPlan"
+        android:textAllCaps="false"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/textViewTripTitle"
+        android:layout_alignEnd="@+id/textViewTripTitle"
+        android:layout_marginRight="28dp"
+        android:layout_marginEnd="28dp" />
+</RelativeLayout>

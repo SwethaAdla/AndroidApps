@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_get_game"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.app.thegamesdb.GetGameActivity">
+
+    <TextView
+        android:text="@string/GameName_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/GameName"
+        android:textColor="@android:color/black"/>
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+
+        android:id="@+id/imageView"
+        android:layout_below="@+id/GameName"
+        android:layout_toRightOf="@+id/genreTitle"
+        android:layout_toEndOf="@+id/genreTitle" />
+
+    <TextView
+        android:text="Overview:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:id="@+id/OverView"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_below="@+id/OverView"
+        android:layout_toRightOf="@+id/GameName"
+        android:layout_toEndOf="@+id/GameName"
+        android:layout_marginTop="8dp"
+        android:id="@+id/overviewScrollview"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/OVLinearLayout" >
+
+            <TextView
+                android:text="@string/overviewtext_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/OverviewTextView"
+                android:inputType="textMultiLine"/>
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/genreTitle"
+        android:layout_toRightOf="@+id/OverView"
+        android:layout_toEndOf="@+id/OverView"
+        android:id="@+id/genreValue"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/publisherTitle"
+        android:layout_toRightOf="@+id/OverView"
+        android:layout_toEndOf="@+id/OverView"
+        android:id="@+id/PublisherValue"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:text="@string/Genre_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:id="@+id/genreTitle"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/overviewScrollview"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Publisher:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/publisherTitle"
+        android:textColor="@android:color/black"
+        android:layout_above="@+id/PlayTrailerBtn"
+        android:layout_below="@+id/genreTitle"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:text="@string/PlayTrailer_label"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/PlayTrailerBtn"
+        android:layout_above="@+id/SimilarGamesBtn"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="false" />
+
+    <Button
+        android:text="@string/SimilarGamesBtn_label"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/SimilarGamesBtn"
+        android:layout_above="@+id/FinishBtn"
+        android:layout_alignLeft="@+id/PlayTrailerBtn"
+        android:layout_alignStart="@+id/PlayTrailerBtn"
+        android:textAllCaps="false" />
+
+    <Button
+        android:text="@string/FinishBtn_label"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/FinishBtn"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/SimilarGamesBtn"
+        android:layout_alignStart="@+id/SimilarGamesBtn"
+        android:textAllCaps="false" />
+
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <item
+      android:id="@+id/nav_refreshList"
+      android:title="Refresh List" />
+  <item
+      android:id="@+id/nav_favourites"
+      android:title="Favourites" />
+  <item
+      android:id="@+id/nav_sortIncreasingly"
+      android:title="Sort Increasingly" />
+  <item
+      android:id="@+id/nav_sortDecreasingly"
+      android:title="Sort Decreasingly" />
+</menu>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Trivia App</string>
+    <string name="Button_Label">GetQns</string>
+    <string name="getdata_label">Get Data</string>
+    <string name="data_label" />
+    <string name="textviwttl_label" />
+    <string name="prevbutton_label" />
+    <string name="nextButotn_label">Next</string>
+    <string name="txtViewWelcome">Welcome to Trivia App</string>
+    <string name="btnExit">Exit</string>
+    <string name="btnStart">Start</string>
+    <string name="txtViewQNo">Question 1</string>
+    <string name="txtView">Timer</string>
+    <string name="btnPrevious">Previous</string>
+    <string name="btnNext">Next</string>
+    <string name="textViewTitle">Correct Answers</string>
+    <string name="yourPerformanceTitle">Your Performance:</string>
+    <string name="finishbutton_label">Finish</string>
+    <string name="displayPercent_label" />
+</resources>

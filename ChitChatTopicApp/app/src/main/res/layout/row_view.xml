@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="@string/ChannelName_label"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewChannelName"
+        android:layout_width="250dp" />
+
+    <Button
+        android:text="@string/ButtonView_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="@string/buttonJoin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/buttonView"
+        android:layout_alignLeft="@+id/buttonView"
+        android:layout_alignStart="@+id/buttonView"
+        android:id="@+id/buttonJoin"
+        android:visibility="invisible"/>
+</RelativeLayout>

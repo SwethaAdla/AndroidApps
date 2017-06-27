@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">InClass06</string>
+    <string name="SearchBtn_Label">Search</string>
+    <string name="GameDerails_label" />
+    <string name="GameName_label" />
+    <string name="OverView_label">Overview</string>
+    <string name="Overviewtext_label" />
+    <string name="GenreValue_label" />
+    <string name="PublisherValue_label" />
+    <string name="SimilarGamesBtn_label">Similar Games</string>
+    <string name="FinishBtn_label">Finish</string>
+    <string name="EditTextSearch_label" />
+    <string name="gameDetails_label" />
+    <string name="selectedGame_label" />
+    <string name="selgameTitle_label">Similar gams to:</string>
+    <string name="finishBtn_label">Finish</string>
+</resources>

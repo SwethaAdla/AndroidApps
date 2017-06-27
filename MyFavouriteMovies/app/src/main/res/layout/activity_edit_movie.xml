@@ -1,0 +1,173 @@
+<!--Homework 02
+    activity_edit_movie.xml
+    Group 02 - Lakshmi Sridhar, Swetha Adla
+    -->
+
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_add_movie"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.app.myfavouritemovies.EditMovieActivity">
+
+    <TextView
+        android:text="@string/txtViewDescptn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewTitle"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="18dp"
+        android:id="@+id/textViewDescptn"
+        android:textSize="18sp"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editTextImdb"
+        android:textSize="18sp"
+        android:layout_alignBaseline="@+id/textViewImdb"
+        android:layout_alignBottom="@+id/textViewImdb"
+        android:layout_alignLeft="@+id/seekBar"
+        android:layout_alignStart="@+id/seekBar" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/editTextYear"
+        android:textSize="18sp"
+        android:maxLength="4"
+        android:inputType="number"
+        android:layout_alignBottom="@+id/textViewYear"
+        android:layout_alignLeft="@+id/editTextImdb"
+        android:layout_alignStart="@+id/editTextImdb"
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/seekBar"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/textViewSeekBarValue" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editTextName"
+        android:maxLength="50"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/textViewDescptn"
+        android:layout_toEndOf="@+id/textViewDescptn"
+        android:layout_marginTop="11dp" />
+
+    <TextView
+        android:text="@string/txtViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewTitle"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:layout_alignBaseline="@+id/editTextName"
+        android:layout_alignBottom="@+id/editTextName"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Save Changes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonSave"
+        android:textAllCaps="false"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner2"
+        android:layout_alignBottom="@+id/textViewGenre"
+        android:layout_alignLeft="@+id/seekBar"
+        android:layout_alignStart="@+id/seekBar" />
+
+    <TextView
+        android:text="@string/txtViewGenre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewGenre"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/editTextDescptn"
+        android:layout_alignRight="@+id/textViewTitle"
+        android:layout_alignEnd="@+id/textViewTitle"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:background="@drawable/descbox"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/editTextDescptn"
+        android:maxLength="1000"
+        android:layout_below="@+id/textViewDescptn"
+        android:scrollbars="vertical"
+        android:scrollbarSize="50dp"/>
+
+    <TextView
+        android:text="@string/txtViewRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewRating"
+        android:layout_marginTop="25dp"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/textViewGenre"
+        android:layout_alignLeft="@+id/textViewGenre"
+        android:layout_alignStart="@+id/textViewGenre" />
+
+    <SeekBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar"
+        android:layout_alignBottom="@+id/textViewRating"
+        android:layout_alignRight="@+id/editTextName"
+        android:layout_alignEnd="@+id/editTextName"
+        android:layout_toRightOf="@+id/textViewDescptn"
+        android:layout_toEndOf="@+id/textViewDescptn" />
+
+    <TextView
+        android:text="@string/txtViewImdb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewImdb"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="30dp"
+        android:layout_above="@+id/buttonSave"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="@string/txtViewYear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewYear"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:layout_above="@+id/editTextImdb"
+        android:layout_alignLeft="@+id/textViewRating"
+        android:layout_alignStart="@+id/textViewRating" />
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<!-- Inclass 02
+    strings.xml
+    Lakshmi Sridhar
+    -->
+<resources>
+    <string name="app_name">BMI Calculator</string>
+    <string name="action_settings">Settings</string>
+    <string name="txtViewBMI">Body Mass Index(BMI)</string>
+    <string name="txtViewWeight">Weight</string>
+    <string name="txtViewHeight">Height</string>
+    <string name="txtViewWeightUnit">lb</string>
+    <string name="txtViewHeightInches">inches</string>
+    <string name="txtViewHeightFeet">feet</string>
+    <string name="buttonCalBmi">Calculate BMI</string>
+    <string name="bttnCalBmi">Calculate BMI</string>
+
+</resources>

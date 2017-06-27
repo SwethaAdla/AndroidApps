@@ -1,0 +1,64 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.app.myfavouritemovies.MainFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:text="@string/btnEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="21dp"
+            android:id="@+id/buttonEdit"
+            android:layout_below="@+id/buttonAddMovie"
+            android:layout_centerHorizontal="true"
+            android:textAllCaps="false" />
+
+        <Button
+            android:text="@string/btnDeleteMovie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:id="@+id/buttonDeleteMovie"
+            android:layout_below="@+id/buttonEdit"
+            android:layout_centerHorizontal="true"
+            android:textAllCaps="false" />
+
+        <Button
+            android:text="@string/btnShowByYear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="29dp"
+            android:id="@+id/buttonShowByYear"
+            android:layout_below="@+id/buttonDeleteMovie"
+            android:layout_centerHorizontal="true"
+            android:textAllCaps="false" />
+
+        <Button
+            android:text="@string/btnShowByRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/buttonShowByYear"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="34dp"
+            android:id="@+id/buttonShowByRating"
+            android:textAllCaps="false" />
+
+        <Button
+            android:text="@string/btnAddMovie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="51dp"
+            android:id="@+id/buttonAddMovie"
+            android:textAllCaps="false"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+
+</FrameLayout>
